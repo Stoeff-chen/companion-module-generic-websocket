@@ -253,7 +253,7 @@ class WebsocketInstance extends InstanceBase {
 					if (this.config.debug_messages) {
 						this.log('debug', `Message sent: ${value}`)
 					}
-					this.ws.send(value + '\r\n')
+					//this.ws.send(value + '\r\n')
 				},
 			},
 		})
